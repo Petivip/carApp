@@ -5,6 +5,9 @@ public class Car extends Vehicle {
     private String type;
 
 
+    private String description;
+
+
     public Car() {
     }
 
@@ -47,6 +50,15 @@ public class Car extends Vehicle {
     public void setType(String type) {
         this.type = type;
     }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
 
 
 }
